@@ -1,0 +1,130 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-color:wheat;
+  margin: 0px;
+}
+
+header {
+  background-image: url(../Imagens/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.aba nav li {
+    display: inline-block;
+    list-style: none;
+    border: 2px solid;
+    border-color:darkslategrey;
+    margin-right: 10px;
+}
+
+.aba nav a {
+    background-color:coral;
+    background: rgba(255, 127, 80, 0.3);
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.aba nav a:hover {
+    background: rgba(255, 127, 80, 0.6);
+}
+
+.aba nav ul {
+    text-align: right;
+}
+
+.content {
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+.content h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px white;
+}
+
+.content p {
+    font-size: 25px;
+    color: black;
+    background-color: rgba(204, 142, 142, 0.4);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 3px solid rgb(180, 94, 94);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+    background-color: wheat;
+}
+
+.menu {
+    width: 15%;
+    float: left;
+    box-sizing: border-box; 
+}
+
+.menu img {
+    width: 100%;
+    display: block;
+}
+
+.menu-1, .menu-2, .menu-3, .menu-4, .menu-5 {
+    margin-right: 5%;
+}
+
+.menu p {
+    background-color: lightcoral;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;  
+}
+
+a {
+    text-decoration: none;
+    color: peachpuff;
+}
+
+a:hover {
+    background-color: darkorange;
+}
+
+a:visited {
+    color: none;
+}
+
+a:active {
+    color: gold;
+}
+
+    
+
+footer {
+    background-color: rgb(231, 186, 71);
+    text-align: center;
+    font-size: 15px;
+    height: 60px;
+    line-height: 60px;
+}
+    
